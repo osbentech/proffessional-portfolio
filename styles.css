@@ -38,7 +38,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.1)), url("photo/bg/prof-backround2.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.1)), url("photo/bg/prof-backround2.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -49,12 +49,20 @@
   line-height: 30px;
 }
 
-.info-text h3 h2 {
+.info-text h3 {
   color: plum;
 }
 
 .dif {
   color: gold;
+}
+
+.venue h2 {
+  color: plum;
+}
+
+.info-date h2 {
+  color: plum;
 }
 
 /* footer style starts */

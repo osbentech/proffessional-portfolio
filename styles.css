@@ -8,6 +8,71 @@
   font-family: 'Lato', sans-serif;
 }
 
-.box {
-  background: red;
+/* header styles starts */
+.msg {
+  color: beige;
+}
+
+.logo-header {
+  display: none;
+}
+
+.header {
+  background-color: blueviolet;
+  height: 70px;
+  border-radius: 6px;
+}
+
+.hamburger-btn {
+ margin-left: 30px;
+ border: none;
+ border-radius: 4px;
+}
+
+.hamburger-btn:hover {
+  cursor: pointer;
+}
+
+/* .info-container styles starts here */
+.info-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.1)),url("photo/bg/prof-backround2.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.info-text {
+  margin-top: 150px;
+  margin-bottom: 150px;
+  line-height: 30px;
+}
+
+.info-text h3,h2 {
+  color: plum;
+}
+
+.dif {
+  color: gold;
+}
+
+/* footer style starts */
+.footer {
+  background-color: blueviolet;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  gap: 15px;
+}
+
+.footer p {
+  color: aliceblue;
+}
+
+.footer a {
+  text-decoration: none;
+  color: plum;
 }

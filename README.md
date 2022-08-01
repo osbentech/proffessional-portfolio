@@ -14,6 +14,7 @@ Original design idea by Cindy Shin. Big shoutout to her.
 - Html
 - Css
 - Linters
+- javascript
 
 
 ## Author

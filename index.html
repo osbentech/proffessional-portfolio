@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Concert</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
@@ -12,36 +13,111 @@
         <header class="header">
 
             <!-- header navbars starts here -->
-            <marquee class="msg" behavior="" direction="">You can't afford to miss it!</marquee>
+            <!-- <marquee class="msg" behavior="" direction="">You can't afford to miss it!</marquee> -->
             <nav class="header-navbars">
                 <nav class="logo-header">Benjamin</nav>
-                <nav class="hamburger">
-                <button id="home-btn" class="hamburger-btn" type="submit"><img src="photo/navs/Icon-Menu.png" alt=""></button>
-                </nav>
+                <div class="hamburger">
+                  <button class="hamburger-btn" type="submit"><img src="photo/navs/hum-btn.png" alt=""></button>
+                </div>
+                <div class="t-menu">
+                    <button class="c-button" type="submit">&times;</button>
+                    <div class="tm-logo">
+                        <img src="photo/assets/logo_transparent.png" alt="">
+                    </div>
+                    <ul class="tul">
+                      <li><a href="#tul-1">About</a></li>
+                      <li><a href="#tul-2">Events</a></li>
+                      <li><a href="#tul-3">Join</a></li>
+                      <li><a href="#tul-4">Sponsor</a></li>
+                      <li><a href="#tul-5">News</a></li>
+                    </ul>
+                    <div class="cc">CC Campaign</div>
+                </div>
             </nav>
         </header>
 
         <!-- info-container starts here -->
         <section class="info-container">
             <div class="info-text">
-                <h3 class="h3">Welcome to Osbentech</h3>
-                <h3>Enjoy live concerts by</h3>
-                <h2 class="dif">"MUSIC IS THE SOUL OF LIFE BANDS"</h2>
+                <div class="greting">
+                    <h5 class="greetext">"Greetings! beautiful people osbentech band presents"</h5>
+                    <h2 class="dif">MUSIC IS THE SOUL OF LIFE CONCERT 2022</h2>
+                    <h2 class="dif">Theme: CHRISTMASS SPECIAL</h2>
+                </div>
 
-                <div class="venue">
-                    <h2>VENUE: SHARATON INTERCONTINENTAL HOTEL</h2>
-                    <h2>Theme: CHRISTMASS SPECIAL</h2>
+                <div class="txt">
+                    <div class="txt-p">
+                      <p class="write-up">In fact, inserting any fantasy text or a famous text, be it a poem, a speech, a literary passage, a song's text, etc., our text generator will provide the random extraction of terms and steps to compose your own exclusive Lorem Ipsum. </p>
+                   </div>
                     <div class="info-date">
-                        <h2>Date: 20dec.2022</h2>
+                        <h3>2022.23(FRI) ~ 25(SUN)</h3>
+                        <p>@ Paradise Regained Hotel and Resort Abuja Nigeria</p>
                     </div>
                 </div>
-            </div>
 
-            <!-- guest artists starts here -->
-            <div class="guest-artist">
-                <ul class="guest-list">
-                    <li class="guestlist"></li>
-                </ul>
+                <!-- programs starts -->
+                <div id="tul-2" class="programs">
+                    <div class="all-programs">
+                        <div class="topic">Events</div>
+                        <ul class="program-list">
+                            <li class="icons">
+                                <span class="material-icons">nightlife</span>
+                                <span class="ico">Belly Dance</span>
+                                <div class="main-ico">
+                                <p class="ico2">Watch to top artists from different part of the world  perform live</p>
+                                </div>
+                            </li>
+
+                            <li class="icons">
+                                <span class="material-icons">party_mode</span>
+                                <span class="ico">Artiste perfomance</span>
+                                <div class="main-ico">
+                                <p class="ico2">listen to top artists from different part of the world and expirience the dept of good music</p>
+                                </div>
+                            </li>
+
+                            <li class="icons">
+                                <span class="material-icons">local_fire_department</span>
+                                <span class="ico">ladies fire show</span>
+                                <div class="main-ico">
+                                <p class="ico2">Expirience live event where proffetional ladies fire performers do what they know best</p>
+                                </div>
+                            </li>
+
+                            <li class="icons">
+                                <span class="material-icons">emoji_events</span>
+                                <span class="ico">Best Dressed Award</span>
+                                <div class="main-ico">
+                                <p class="ico2">An Award will be presented to the best Dressed, come in your finest of clothes</p>
+                                </div>
+                            </li>
+                        </ul>
+
+                        <div class="prog-foot">
+                            <button class="prog-foot-btn" type="submit">Join Concert 2022</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- guest artists starts here -->
+                <div class="artists">
+                    <div class="art-imgs">
+                        <img class="artPic" src="images/" alt="">
+                    </div>
+
+                    <div class="guest-artist">
+                        <h3 class="guestlists">
+                          h3
+                        </h3>
+                    </div>
+                    
+                    <div class="placeofwork"></div>
+                    <div class="works"></div>
+
+                    <button class="art-btn" type="submit">MORE</button>
+               </div>
+
             </div>
 
         </section>
@@ -52,6 +128,9 @@
             <a href="https://www.linkedin.com/in/benjamin-ejike-632248206">LinkedIn</a>
             <a href="https://github.com/osbentech">github</a>
         </footer>
-    </section>   
+    </section>
+
+<script src="script.js"></script>
+
 </body>
 </html>

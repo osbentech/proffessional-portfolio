@@ -3,16 +3,11 @@
 * {
   margin: 0;
   padding: 0;
-  box-sizing: border-box;
   border: 0;
   font-family: 'Lato', sans-serif;
 }
 
 /* header styles starts */
-.msg {
-  color: beige;
-}
-
 .logo-header {
   display: none;
 }
@@ -121,15 +116,17 @@
   justify-content: center;
   align-items: center;
   background-image: url("photo/assets/mobile_index_bg.png");
-  background-position: fixed;
   top: 0;
   background-repeat: no-repeat;
   background-size: cover;
+  flex-direction: column;
 }
 
 .info-text {
   line-height: 30px;
-  margin: 10px 20px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .info-text h3 {
@@ -196,16 +193,17 @@ p {
 
 .all-programs {
   background-image: url(photo/assets/pattern.png);
+  display: flex;
+  flex-direction: column;
 }
 
 .program-list {
   display: flex;
   flex-direction: column;
-  gap: 5px;
   justify-content: space-between;
 }
 
-.program-list .icons {
+.icons {
   background-color: #ffffff26;
   display: flex;
   margin: 8px 8px 0;
@@ -213,22 +211,28 @@ p {
   line-height: 19px;
   padding: 0 15px 0 15px;
   height: 80px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  text-align: justify;
 }
 
 .material-icons {
   color: #fff;
 }
 
-.ico2 {
+.main-ico p {
   color: #fff;
   font-size: 11px;
-  margin-left: 15px;
+  margin-left: 90px;
   display: flex;
-  align-items: flex-start;
-  justify-content: flex-start;
+  align-items: center;
+  justify-content: center;
   text-align: justify;
-  width: 230px;
+  width: 250px;
+}
+
+.spandiv {
+  display: flex;
+  justify-content: space-between;
 }
 
 .ico {
@@ -245,7 +249,7 @@ p {
   justify-content: center;
   width: 220px;
   height: 50px;
-  margin: 17px 104px;
+  margin: 17px 300px;
   border-radius: 6px;
 }
 
@@ -263,8 +267,8 @@ p {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 300px;
   margin-bottom: 90px;
+  border: 2px solid red;
 }
 
 .arthead {
@@ -277,6 +281,8 @@ p {
 
 .artists {
   display: flex;
+  flex-direction: column;
+  margin-top: 50px;
 }
 
 .guestlists {
@@ -310,13 +316,26 @@ p {
 
 .guestart-wrapper {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   color: black;
   text-align: justify;
 }
 
 .placeofwork {
   color: #ec5242;
+}
+
+.hr {
+  background-color: #ec5242;
+  width: 50px;
+  height: 2px;
+  margin-top: -60px;
+}
+
+.hrperent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .art-btn {
@@ -378,4 +397,10 @@ p {
 
 .ff-writeup {
   color: #323233;
+}
+
+@media screen and (min-width: 768px) {
+  .info-container {
+    width: 100%;
+  }
 }

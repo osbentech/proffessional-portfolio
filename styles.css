@@ -30,7 +30,7 @@
 }
 
 .hamburger img {
-  width: 40px
+  width: 40px;
 }
 
 .tm-logo img {
@@ -47,7 +47,6 @@
 .hamburger-btn:hover {
   cursor: pointer;
 }
-
 
 .t-menu {
   position: fixed;
@@ -104,7 +103,7 @@
 
 .tul a {
   color: black;
-  text-decoration:none;
+  text-decoration: none;
 }
 
 .tul a:hover {
@@ -226,7 +225,7 @@ p {
   font-size: 11px;
   margin-left: 15px;
   display: flex;
-  align-items: flex-start ;
+  align-items: flex-start;
   justify-content: flex-start;
   text-align: justify;
   width: 230px;
@@ -302,7 +301,6 @@ p {
 .art-imgs img {
   width: 80px;
   height: 90px;
-
 }
 
 .art-imgs .hash {

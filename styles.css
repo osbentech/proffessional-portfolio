@@ -160,7 +160,6 @@
   margin: 20px 0 20px 17px;
   font-size: small;
   line-height: 20px;
-  width: 400px;
 }
 
 .txt-p {
@@ -168,7 +167,6 @@
   border: 1px solid white;
   border-radius: 12px;
   margin: 25px 0;
-  width: 400px;
 }
 
 .info-date h3,
@@ -217,7 +215,6 @@ p {
   padding: 0 15px 0 15px;
   height: 80px;
   justify-content: space-between;
-  width: 400px;
 }
 
 .material-icons {
@@ -249,7 +246,7 @@ p {
   justify-content: center;
   width: 220px;
   height: 50px;
-  margin: 17px 90px;
+  margin: 17px 104px;
   border-radius: 6px;
 }
 
@@ -259,33 +256,128 @@ p {
   font-size: 14px;
 }
 
+/* artist styles */
+.guest-overall {
+  background-color: #fff;
+  margin-top: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  margin-bottom: 90px;
+}
+
+.arthead {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  margin-bottom: 60px;
+}
+
+.artists {
+  display: flex;
+}
+
+.guestlists {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  font-style: italic;
+  margin-left: 30px;
+}
+
+.achievments p {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  font-size: 12px;
+}
+
+.art-imgs {
+  display: flex;
+}
+
+.art-imgs img {
+  width: 80px;
+  height: 90px;
+
+}
+
+.art-imgs .hash {
+  width: 40px;
+  height: 40px;
+}
+
+.guestart-wrapper {
+  display: flex;
+  flex-direction: column;
+  color: black;
+  text-align: justify;
+}
+
+.placeofwork {
+  color: #ec5242;
+}
+
+.art-btn {
+  height: 50px;
+  font-size: 15px;
+  background: none;
+  color: #102a66;
+}
+
+.artbtn {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  justify-content: center;
+  border: 3px solid rgb(109, 107, 107);
+  margin-top: 20px;
+  margin-bottom: 35px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 70%;
+}
+
+.art-btn img {
+  margin-left: 9px;
+}
+
 /* footer style starts */
 .footer {
-  background-color: rgb(117, 99, 99);
-  height: 50px;
+  background: #272a31;
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 14px;
+  height: 300px;
+  margin-bottom: 17px;
 }
 
 .footer p {
   color: aliceblue;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
 }
 
-.footer a {
-  text-decoration: none;
-  color: plum;
+.foot-icons img {
+  width: 90px;
+  margin: 20px 20px;
 }
 
-/* artist styles */
-.artists {
+.foot-foot {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.art-imgs {
-  width: 80px;
-  height: 80px;
+.ff-img img {
+  width: 70px;
+}
+
+.ff-writeup {
+  color: #323233;
 }

@@ -70,6 +70,7 @@ const artArr = [
     }
   ];
   function artFill(arr, num) {
+    artistsInfo = artArr;
     const art = arr[num];
     guestlists.textContent = art.artNames;
     artPic.src = art.artPic;

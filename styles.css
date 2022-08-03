@@ -188,7 +188,6 @@ p {
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  align-items: center;
 }
 
 .all-programs {
@@ -200,7 +199,6 @@ p {
 .program-list {
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
 }
 
 .icons {
@@ -211,7 +209,6 @@ p {
   line-height: 19px;
   padding: 0 15px 0 15px;
   height: 80px;
-  /* justify-content: space-between; */
   text-align: justify;
 }
 
@@ -219,7 +216,7 @@ p {
   color: #fff;
 }
 
-.main-ico p {
+.ico2 {
   color: #fff;
   font-size: 11px;
   margin-left: 90px;
@@ -227,19 +224,12 @@ p {
   align-items: center;
   justify-content: center;
   text-align: justify;
-  width: 250px;
-}
-
-.spandiv {
-  display: flex;
-  justify-content: space-between;
 }
 
 .ico {
   margin-left: 15px;
   color: #ff4632;
   font-weight: 600;
-  width: 120px;
 }
 
 .prog-foot {
@@ -247,9 +237,8 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 220px;
-  height: 50px;
-  margin: 17px 300px;
+  flex-direction: column;
+  margin: 17px 20px;
   border-radius: 6px;
 }
 
@@ -257,6 +246,10 @@ p {
   background: none;
   color: #fff;
   font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
 
 /* artist styles */
@@ -268,7 +261,6 @@ p {
   align-items: center;
   justify-content: center;
   margin-bottom: 90px;
-  border: 2px solid red;
 }
 
 .arthead {
@@ -305,18 +297,12 @@ p {
 }
 
 .art-imgs img {
-  width: 80px;
-  height: 90px;
-}
-
-.art-imgs .hash {
-  width: 40px;
-  height: 40px;
+  width: 160px;
+  height: 200px;
 }
 
 .guestart-wrapper {
   display: flex;
-  /* flex-direction: column; */
   color: black;
   text-align: justify;
 }

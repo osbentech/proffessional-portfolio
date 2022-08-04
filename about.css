@@ -18,7 +18,7 @@
 .hamburger {
   display: flex;
   align-items: center;
-  }
+}
 
 .hamburger-btn {
   margin-left: 30px;
@@ -26,11 +26,11 @@
   align-items: center;
   justify-content: center;
 }
-  
+
 .hamburger img {
   width: 40px;
 }
-  
+
 .about-overall {
   background-image: url(photo/assets/mobile_index_bg.png);
 }
@@ -57,7 +57,7 @@
 }
 
 .about-write-up p {
-margin: 30px;
+  margin: 30px;
 }
 
 .about-ad {
@@ -98,7 +98,7 @@ margin: 30px;
   align-items: center;
   justify-content: center;
   margin: 45px 0 0 0;
- }
+}
 
 .abhr {
   width: 40px;
@@ -117,10 +117,6 @@ margin: 30px;
   margin: 30px;
   justify-content: center;
   text-align: center;
-}
-
-.sect2-logowrite {
-  display: flex;
 }
 
 .sect2-logowrite {
@@ -199,9 +195,6 @@ margin: 30px;
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.past-foot {
   color: #fff;
 }
 
@@ -211,5 +204,5 @@ margin: 30px;
 }
 
 .pastf-img img {
-width: 70px;
+  width: 70px;
 }

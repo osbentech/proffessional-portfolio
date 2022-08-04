@@ -1,0 +1,216 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-family: 'Lato', sans-serif;
+}
+
+.about-nav-head {
+    background-image: url(photo/assets/mobile_index_bg.png);
+    border: 2px solid #fff;
+    height: 80px;
+    align-items: center;
+    display: flex;
+}
+
+.hamburger {
+    display: flex;
+    align-items: center;
+  }
+
+  .hamburger-btn {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .hamburger img {
+    width: 40px;
+  }
+  
+
+  .about-overall {
+    background-image: url(photo/assets/mobile_index_bg.png);
+  }
+
+.about-head-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+  .about-heading h1 {
+    color: coral;
+    margin: 50px 110px;
+    display: flex;
+  }
+
+  .about-write-up {
+    background-color: #fff;
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 27px;
+}
+
+  .about-write-up p {
+    margin: 30px;
+  }
+
+  .about-ad {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-ad p {
+    margin: 30px;
+  }
+
+  .about-email {
+    margin: -30px 25px 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .about-email p {
+    color: rgb(149, 149, 250);
+  }
+
+  .sect2 {
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    line-height: 27px;
+  }
+
+  .sec2-head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 45px 0 0 0;
+  }
+
+  .abhr {
+    width: 40px;
+    background-color: orangered;
+    height: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+  }
+
+  .sect2-writeup {
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .sect2-logowrite {
+    display: flex;
+  }
+
+  .sect2-logowrite {
+    border: 1px solid rgb(150, 135, 135);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 120px;
+  }
+
+  .logoab-write h4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+  .logoab img {
+    width: 70px;
+  }
+
+  .past {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .past-hr {
+    width: 40px;
+    background-color: orangered;
+    height: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 90px;
+  }
+
+  .past-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 30px;
+  }
+
+  .past-txt p {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0 40px;
+    text-align: center;
+  }
+
+  .past-img {
+    display: flex;
+   flex-direction: column;
+   align-items: center;
+  }
+
+  .past-img img {
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 100px 1px 100px;
+  }
+
+  .past-foot {
+    background-color: rgb(79, 79, 80);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .past-foot {
+    color: #fff;
+  }
+
+  .past-foot p {
+    font-size: 10px;
+    letter-spacing: 2px;
+  }
+
+  .pastf-img img {
+    width: 70px;
+  }

@@ -129,12 +129,10 @@
   flex-direction: column;
 }
 
-.info-text h3 {
-  color: plum;
-}
-
 .greetext {
   color: #ec5242;
+  margin-top: 25px;
+  margin-bottom: 20px;
 }
 
 .greting {
@@ -147,8 +145,8 @@
 
 .dif {
   color: rgb(216, 69, 69);
-  font-size: larger;
-  font-weight: 200px;
+  font-size: 30px;
+  font-weight: 600px;
 }
 
 .write-up {
@@ -212,6 +210,10 @@ p {
   text-align: justify;
 }
 
+.icons:hover {
+  border: 2px solid #fff;
+}
+
 .material-icons {
   color: #fff;
 }
@@ -250,6 +252,11 @@ p {
   align-items: center;
   justify-content: center;
   height: 50px;
+}
+
+.prog-foot:hover {
+  background-color: #ec5242;
+  border: 1px solid #fff;
 }
 
 /* artist styles */
@@ -369,6 +376,12 @@ p {
 .foot-icons img {
   width: 90px;
   margin: 20px 20px;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.foot-icons img:hover {
+  width: 95px;
 }
 
 .foot-foot {

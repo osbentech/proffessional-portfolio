@@ -289,13 +289,13 @@ p {
   flex-direction: column;
   color: black;
   font-style: italic;
-  margin-left: 30px;
+  margin: 0 30px;
 }
 
 .achievments p {
   display: flex;
   flex-direction: column;
-  margin-left: 30px;
+  margin: 0 30px;
   font-size: 12px;
 }
 

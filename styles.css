@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;900&display=swap');
 
 * {
   margin: 0;
@@ -144,9 +144,10 @@
 }
 
 .dif {
-  color: rgb(216, 69, 69);
-  font-size: 30px;
-  font-weight: 600px;
+  color: #ec5242;
+  font-size: 35px;
+  font-weight: 900px;
+  line-height: 40px;
 }
 
 .write-up {
@@ -364,6 +365,25 @@ p {
   gap: 14px;
   height: 300px;
   margin-bottom: 17px;
+}
+
+.foot-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.ahr {
+  width: 40px;
+  background-color: orangered;
+  height: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10px;
+  margin-bottom: 50px;
 }
 
 .footer p {

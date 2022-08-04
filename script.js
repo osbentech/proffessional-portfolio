@@ -23,7 +23,7 @@ const artistsInfo = document.querySelector('.artists');
 const artArr = [
   {
     artNames: 'Davido',
-    artPic: 'photo/art/dav.png',
+    artPic: 'photo/art/davi.png',
     placeofwork: 'CEO 30BG records Nigeria and worldwide',
     works: 'Have release more than 5 albums including IF, Aye and many more',
   },

@@ -17,54 +17,47 @@ lists.addEventListener('click', () => {
   menuList.classList.remove('active');
 });
 
-
 // artist starts here js
 const artistsInfo = document.querySelector('.artists');
-const artPic = document.querySelector('.artPic');
-const artNames = document.querySelector('.guestlists');
-const placeofwork = document.querySelector('.placeofwork');
-const works = document.querySelector('.works');
-
 
 const artArr = [
-    {
-      artNames: 'Davido',
-      artPic: 'photo/art/dav.png',
-      placeofwork: 'CEO 30BG records Nigeria and worldwide',
-      works: 'Have release more than 5 albums including IF, Aye and many more'
-    },
-    {
-      artNames: 'Burna Boy',
-      artPic: 'photo/art/burna.png',
-      placeofwork: 'CEO 30BG records Nigeria and worldwide',
-      works: 'old more than 12million copies in 1 single season and lots more'
-    },
-    {
-      artNames: 'Wizkid',
-      artPic: 'photo/art/wiz.png',
-      placeofwork: 'CEO baHits records Nigeria and worldwide',
-      works: 'ongs released includes miss me, Holla at yo boy, Ojuelegbe and many more'
-    },
-    {
-      artNames: 'Rihana',
-      artPic: 'photo/art/rih.png',
-      placeofwork: 'CEO RIRI Musics london and worldwide',
-      works: 'he has over 4 albums in her name including Nice time, Diamond and many more'
-    },
-    {
-      artNames: 'James Arthur',
-      artPic: 'photo/art/james.png',
-      placeofwork: 'CEO Arthur records Nigeria and worldwide',
-      works: 'inger have released more than 6 albums including , Miss home, love you and many more'
-    },
-    {
-      artNames: 'Chris Brown',
-      artPic: 'photo/art/cris.png',
-      placeofwork: 'CEO DEbrowns Misic Washinton DC and worldwide',
-      works: 'inger has more than 3 albums in his name including GO low, With you, and more'
-    }
-  ];
-
+  {
+    artNames: 'Davido',
+    artPic: 'photo/art/dav.png',
+    placeofwork: 'CEO 30BG records Nigeria and worldwide',
+    works: 'Have release more than 5 albums including IF, Aye and many more'
+  },
+  {
+    artNames: 'Burna Boy',
+    artPic: 'photo/art/burna.png',
+    placeofwork: 'CEO 30BG records Nigeria and worldwide',
+    works: 'old more than 12million copies in 1 single season and lots more'
+  },
+  {
+    artNames: 'Wizkid',
+    artPic: 'photo/art/wiz.png',
+    placeofwork: 'CEO baHits records Nigeria and worldwide',
+    works: 'ongs released includes miss me, Holla at yo boy, Ojuelegbe and many more'
+  },
+  {
+    artNames: 'Rihana',
+    artPic: 'photo/art/rih.png',
+    placeofwork: 'CEO RIRI Musics london and worldwide',
+    works: 'he has over 4 albums in her name including Nice time, Diamond and many more'
+  },
+  {
+    artNames: 'James Arthur',
+    artPic: 'photo/art/james.png',
+    placeofwork: 'CEO Arthur records Nigeria and worldwide',
+    works: 'inger have released more than 6 albums including , Miss home, love you and many more'
+  },
+  {
+    artNames: 'Chris Brown',
+    artPic: 'photo/art/cris.png',
+    placeofwork: 'CEO DEbrowns Misic Washinton DC and worldwide',
+    works: 'inger has more than 3 albums in his name including GO low, With you, and more'
+  }
+];
 
   artArr.forEach((ele) => {
   artistsInfo.innerHTML += ` <div class="guestart-wrapper">

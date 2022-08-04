@@ -380,6 +380,10 @@ p {
   filter: grayscale(100%);
 }
 
+.ff-img img {
+  width: 70px;
+}
+
 .foot-icons img:hover {
   width: 95px;
 }
@@ -388,10 +392,6 @@ p {
   display: flex;
   align-items: center;
   justify-content: center;
-}
-
-.ff-img img {
-  width: 70px;
 }
 
 .ff-writeup {

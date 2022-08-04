@@ -59,7 +59,7 @@ const artArr = [
   },
 ];
 
-  artArr.forEach((ele) => {
+artArr.forEach((ele) => {
   artistsInfo.innerHTML += ` <div class="guestart-wrapper">
   <div class="art-imgs">
       <img class="artPic" src="${ele.artPic}" alt="">
@@ -76,6 +76,6 @@ const artArr = [
           <p class="works">s${ele.works}</p>
       </div>
   </div>
-</div>`;
+  </div>`;
 })
   .join('');

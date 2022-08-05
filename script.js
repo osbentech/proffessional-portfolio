@@ -43,27 +43,47 @@ const artArr = [
     artNames: 'Rihana',
     artPic: 'photo/art/rih.png',
     placeofwork: 'CEO RIRI Musics london and worldwide',
-    works: 'he has over 4 albums in her name including Nice time, Diamond and many more',
+    works: 'She has over 4 albums in her name including Nice time, Diamond and many more',
+  },
+  {
+    artNames: 'James Arthur',
+    artPic: 'photo/art/james.png',
+    placeofwork: 'CEO jay-jay Musics Washinton DC and worldwide',
+    works: 'he has over 4 albums in his name including Nice time, Diamond and many more',
+  },
+  {
+    artNames: 'Cris Brown',
+    artPic: 'photo/art/cris.png',
+    placeofwork: 'CEO CRIS_BROWN Musics london and worldwide',
+    works: 'has the fastest selling album CREED, which stayed in the top board for 3 consecutive weeks',
   },
 ];
 
 artArr.forEach((ele) => {
-  artistsInfo.innerHTML += ` <div class="guestart-wrapper">
-  <div class="art-imgs">
+  artistsInfo.innerHTML += ` <ul class="guestart-wrapper"> 
+  <div class="over">
+  <div class="ove-1"></div>
+  <li class="art-imgs">
       <img class="artPic" src="${ele.artPic}" alt="">
-  </div>
+  </li>
 
-  
-  <div class="guest-artist">
-          <h4 class="guestlists">
-          ${ele.artNames}
-          </h4>
-      
-      <div class="achievments">
-          <p class="placeofwork"> ${ele.placeofwork}</p>
-          <p class="works">s${ele.works}</p>
-      </div>
+  <div class="over-2">
+      <li class="guest-artist">
+              <h4 class="guestlists">
+                  ${ele.artNames}
+              </h4>
+          
+          <div class="achievments">
+              <p class="placeofwork"> ${ele.placeofwork}</p>
+              <p class="works">${ele.works}</p>
+          </div>
+      </li>
   </div>
-  </div>`;
+</div>
+</ul>
+  `
 })
-  .join('');
+.join('');
+
+// see more/less starts
+

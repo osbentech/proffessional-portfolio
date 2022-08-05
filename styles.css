@@ -560,18 +560,19 @@ p {
   }
 
   .artists {
-    display: flex;
-    flex-direction: row;
-  }
-
-  .guestart-wrapper {
-    display: flex;
-    flex-direction: column;
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+   
   }
 
   .guest-artist {
     display: flex;
     flex-direction: column;
+  }
+
+  .over {
+    display: flex;
   }
 
   .artbtn {

@@ -212,10 +212,6 @@
   margin: 50px 100px 1px 100px;
 }
 
-.past-img img:hover {
-  width: 255px;
-}
-
 .past-foot {
   background-color: rgb(79, 79, 80);
   display: flex;
@@ -231,6 +227,10 @@
 
 .pastf-img img {
   width: 70px;
+}
+
+.past-img img:hover {
+  width: 255px;
 }
 
 @media screen and (min-width: 768px) {
@@ -297,11 +297,11 @@
     margin-left: 30px;
   }
 
-  .ham img:hover {
-    width: 95px;
-  }
-
   .hamburger-btn img {
     display: none;
+  }
+
+  .ham img:hover {
+    width: 95px;
   }
 }

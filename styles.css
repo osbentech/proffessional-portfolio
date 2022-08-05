@@ -309,11 +309,6 @@ p {
   height: 200px;
 }
 
-.art-imgs img:hover {
-  width: 166px;
-  height: 205px;
-}
-
 .guestart-wrapper {
   display: flex;
   color: black;
@@ -425,6 +420,11 @@ p {
 
 .ff-writeup {
   color: #323233;
+}
+
+.art-imgs img:hover {
+  width: 166px;
+  height: 205px;
 }
 
 @media screen and (min-width: 768px) {

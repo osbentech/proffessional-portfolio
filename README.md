@@ -1,18 +1,20 @@
-# proffessional-portfolio
+## proffessional-portfolio
 
-This is a Concert site for events. The site is fully responsive.
+    This is a Concert site for events. The site is fully responsive.
 
-#loom link
-![]loom:(https://www.loom.com/share/6fd2e393d5394e59b75ffdbdda2e1a2c)
+## live version
+    -[live_demo](https://osbentech.github.io/proffessional-portfolio/)
 
-# Original idea
-Original design idea by Cindy Shin. Big shoutout to her.
+## introduction video
+    -[loom](https://www.loom.com/share/6fd2e393d5394e59b75ffdbdda2e1a2c)
 
-![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Below is the live server link to this project
-(https://osbentech.github.io/proffessional-portfolio/)
+## Built With
 
+- Html
+- Css
+- Linters
+- javascript
 
 ## Getting Started
 
@@ -23,14 +25,6 @@ To get a local copy up and running follow these simple example steps.
 3- after you get the project to your local machine open the index.html file or simply run the live server
 4- install the node packages via npm install
 4- to Check for linters run (npx hint .) for html code fixed and npx stylelint "**/*.{css,scss}"
-
-## Built With
-
-- Html
-- Css
-- Linters
-- javascript
-
 
 ## Author
 
@@ -49,9 +43,14 @@ Feel free to check the [issues page](../../issues/).
 
 ## Show your support
 
-Give a ⭐️ if you like this project!
+Give a ⭐️ if you like this project and how
+we manage to build it!
+
+## Acknowledgments
+
+Template from this [Behance](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) by [adagio07](https://www.behance.net/adagio07)
 
 
 ## 📝 License
 
-This project is [MIT](./MIT.md) licensed.
+[adagio07](https://www.behance.net/adagio07)

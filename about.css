@@ -224,7 +224,8 @@
 .pastf-img img {
   width: 70px;
 }
- @media screen and (min-width: 768px) {
+
+@media screen and (min-width: 768px) {
   .hamburger-btn {
     display: none;
   }

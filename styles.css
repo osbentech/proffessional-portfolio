@@ -8,7 +8,7 @@
 }
 
 /* header styles starts */
-.logo-header {
+.desktop {
   display: none;
 }
 
@@ -356,6 +356,10 @@ p {
   margin-left: 9px;
 }
 
+.artbtn:hover {
+  border: 4px solid rgb(109, 107, 107);;
+}
+
 /* footer style starts */
 .footer {
   background: #272a31;
@@ -421,5 +425,150 @@ p {
 @media screen and (min-width: 768px) {
   .info-container {
     width: 100%;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .desktop {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .dest-nav-logo img {
+    width: 100px;
+  }
+
+  .nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 50px;
+  }
+
+  .nav-ul a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .nav-ul a:hover {
+    color: orangered;
+    text-decoration: underline;
+  }
+
+  .cc-nav {
+    border: 3px solid orangered;
+    color: orangered;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cc-nav:hover {
+    background-color: orangered;
+    color: #fff;
+  }
+
+  .desk-cc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+  .achievments p {
+    margin: 0 30px 30px;
+  }
+
+  .works,
+  .placeofwork {
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+
+  .all-programs {
+    height: 300px;
+    margin: 50px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .programs {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .program-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .icons {
+    display: flex;
+    flex-direction: column;
+    margin: 8px 8px 0;
+    align-items: center;
+    line-height: 19px;
+    padding: 0 15px 0 15px;
+    text-align: justify;
+    justify-content: center;
+    height: 250px;
+  }
+
+  .ico {
+    margin-bottom: 8px;
+  }
+
+  .ico2 {
+    color: #fff;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    margin: 0;
+  }
+  
+  .material-icons {
+    margin-bottom: 8px;
+  }
+
+  .prog-foot {
+    width: 50%;
+  }
+
+  .prog-foot-btn {
+    height: 70px;
+  }
+
+  .artists {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .guestart-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .guest-artist {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .artbtn {
+    display: none;
   }
 }

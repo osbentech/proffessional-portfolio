@@ -18,17 +18,23 @@
 .hamburger {
   display: flex;
   align-items: center;
+  margin: 0 30px;
 }
 
 .hamburger-btn {
   margin-left: 30px;
   display: flex;
-  align-items: center;
-  justify-content: center;
 }
 
-.hamburger img {
+.hamburger-btn img {
   width: 40px;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+}
+
+.ham img {
+  display: none;
 }
 
 .about-overall {
@@ -217,4 +223,67 @@
 
 .pastf-img img {
   width: 70px;
+}
+@media screen and (min-width: 768px) {
+  .hamburger-btn {
+    display: none;
+  }
+
+  .about-nav {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .nav-ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    list-style: none;
+    text-decoration: none;
+    margin: 0 50px;
+  }
+
+  .nav-ul a {
+    text-decoration: none;
+    font-weight: 600;
+  }
+
+  .nav-ul a:hover {
+    color: orangered;
+    text-decoration: underline;
+  }
+
+  .cc-nav {
+    border: 3px solid orangered;
+    color: orangered;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+  }
+
+  .cc-nav:hover {
+    background-color: orangered;
+    color: #fff;
+  }
+
+  .desk-cc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 10px;
+  }
+
+  .ham img {
+    display: flex;
+    width: 90px;
+    margin-left: 30px;
+  }
+
+  .hamburger-btn img {
+    display: none;
+  }
 }

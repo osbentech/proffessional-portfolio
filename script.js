@@ -45,18 +45,6 @@ const artArr = [
     placeofwork: 'CEO RIRI Musics london and worldwide',
     works: 'he has over 4 albums in her name including Nice time, Diamond and many more',
   },
-  {
-    artNames: 'James Arthur',
-    artPic: 'photo/art/james.png',
-    placeofwork: 'CEO Arthur records Nigeria and worldwide',
-    works: 'inger have released more than 6 albums including , Miss home, love you and many more',
-  },
-  {
-    artNames: 'Chris Brown',
-    artPic: 'photo/art/cris.png',
-    placeofwork: 'CEO DEbrowns Misic Washinton DC and worldwide',
-    works: 'inger has more than 3 albums in his name including GO low, With you, and more',
-  },
 ];
 
 artArr.forEach((ele) => {

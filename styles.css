@@ -309,6 +309,11 @@ p {
   height: 200px;
 }
 
+.art-imgs img:hover {
+  width: 166px;
+  height: 205px;
+}
+
 .guestart-wrapper {
   display: flex;
   color: black;

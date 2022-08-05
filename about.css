@@ -37,6 +37,10 @@
   display: none;
 }
 
+.nav-hide {
+  display: none;
+}
+
 .about-overall {
   background-image: url(photo/assets/mobile_index_bg.png);
 }
@@ -208,6 +212,10 @@
   margin: 50px 100px 1px 100px;
 }
 
+.past-img img:hover {
+  width: 255px;
+}
+
 .past-foot {
   background-color: rgb(79, 79, 80);
   display: flex;
@@ -228,6 +236,10 @@
 @media screen and (min-width: 768px) {
   .hamburger-btn {
     display: none;
+  }
+
+  .nav-hide {
+    display: flex;
   }
 
   .about-nav {
@@ -283,6 +295,10 @@
     display: flex;
     width: 90px;
     margin-left: 30px;
+  }
+
+  .ham img:hover {
+    width: 95px;
   }
 
   .hamburger-btn img {

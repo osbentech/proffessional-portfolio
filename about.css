@@ -10,9 +10,12 @@
 .about-nav-head {
   background-image: url(photo/assets/mobile_index_bg.png);
   border: 2px solid #fff;
-  height: 80px;
-  align-items: center;
   display: flex;
+  flex-direction: column;
+}
+
+.nav-ic {
+  display: none;
 }
 
 .hamburger {
@@ -236,6 +239,29 @@
 @media screen and (min-width: 768px) {
   .hamburger-btn {
     display: none;
+  }
+
+  .nav-ic {
+    display: flex;
+    background-color: rgb(13, 15, 15);
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: -15px;
+  }
+  
+  .nav-ic p {
+    color: #fff;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-ic img {
+    background: none;
+    border: none;
+    width: 11px;
+    display: flex;
+    align-items: center;
   }
 
   .nav-hide {

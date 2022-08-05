@@ -18,6 +18,10 @@
   border: 2px solid #fff;
 }
 
+.nav-ic {
+  display: none;
+}
+
 .hamburger {
   display: flex;
   align-items: center;
@@ -434,6 +438,29 @@ p {
 
   .hamburger {
     display: none;
+  }
+
+  .nav-ic {
+    display: flex;
+    background-color: rgb(13, 15, 15);
+    justify-content: flex-end;
+    gap: 20px;
+    margin-bottom: -20px;
+  }
+
+  .nav-ic p {
+    color: #fff;
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-ic img {
+    background: none;
+    border: none;
+    width: 11px;
+    display: flex;
+    align-items: center;
   }
 
   .desktop {

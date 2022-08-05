@@ -2,6 +2,9 @@
 
 This is a Concert site for events. The site is fully responsive.
 
+#loom link
+![]loom:(https://www.loom.com/share/6fd2e393d5394e59b75ffdbdda2e1a2c)
+
 # Original idea
 Original design idea by Cindy Shin. Big shoutout to her.
 

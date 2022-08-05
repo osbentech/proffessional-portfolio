@@ -81,9 +81,8 @@ artArr.forEach((ele) => {
   </div>
 </div>
 </ul>
-  `
+  `;
 })
-.join('');
+  .join('');
 
 // see more/less starts
-

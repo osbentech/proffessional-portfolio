@@ -357,7 +357,7 @@ p {
 }
 
 .artbtn:hover {
-  border: 4px solid rgb(109, 107, 107);;
+  border: 4px solid rgb(109, 107, 107);
 }
 
 /* footer style starts */
@@ -469,6 +469,7 @@ p {
     width: 120px;
     display: flex;
     align-items: center;
+    margin-right: 30px;
   }
 
   .cc-nav:hover {
@@ -540,7 +541,7 @@ p {
     text-align: justify;
     margin: 0;
   }
-  
+
   .material-icons {
     margin-bottom: 8px;
   }

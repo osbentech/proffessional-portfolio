@@ -18,21 +18,21 @@ lists.addEventListener('click', () => {
 });
 
 // artist starts here js
-const artistsInfo = document.querySelector('.artists');
+const artistsInfo = document.querySelector('.see1');
 
 const artArr = [
-  {
-    artNames: 'Davido',
-    artPic: 'photo/art/davi.png',
-    placeofwork: 'CEO 30BG records Nigeria and worldwide',
-    works: 'Have release more than 5 albums including IF, Aye and many more',
-  },
-  {
-    artNames: 'Burna Boy',
-    artPic: 'photo/art/burna.png',
-    placeofwork: 'CEO 30BG records Nigeria and worldwide',
-    works: 'old more than 12million copies in 1 single season and lots more',
-  },
+  // {
+  //   artNames: 'Davido',
+  //   artPic: 'photo/art/davi.png',
+  //   placeofwork: 'CEO 30BG records Nigeria and worldwide',
+  //   works: 'Have release more than 5 albums including IF, Aye and many more',
+  // },
+  // {
+  //   artNames: 'Burna Boy',
+  //   artPic: 'photo/art/burna.png',
+  //   placeofwork: 'CEO 30BG records Nigeria and worldwide',
+  //   works: 'old more than 12million copies in 1 single season and lots more',
+  // },
   {
     artNames: 'Wizkid',
     artPic: 'photo/art/wiz.png',
@@ -59,6 +59,24 @@ const artArr = [
   },
 ];
 
+// see more/less starts
+more = document.querySelector('#more');
+less = document.querySelector('#less');
+see1 = document.querySelector('.see1');
+
+more.addEventListener('click', () => {
+  see1.classList.toggle('active')
+
+  less.classList.add('active')
+  more.style.display="none"
+})
+
+less.addEventListener('click', () => {
+  see1.classList.toggle('active')
+  more.style.display="flex"
+  less.classList.remove('active')
+})
+
 artArr.forEach((ele) => {
   artistsInfo.innerHTML += ` <ul class="guestart-wrapper"> 
   <div class="over">
@@ -84,5 +102,3 @@ artArr.forEach((ele) => {
   `;
 })
   .join('');
-
-// see more/less starts

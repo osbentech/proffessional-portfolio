@@ -275,6 +275,26 @@ p {
   margin-bottom: 90px;
 }
 
+.see1 {
+  display: none;
+}
+
+#less {
+  display: none;
+}
+
+.see1.active {
+  display: block;
+}
+
+#less.active {
+  display: flex;
+}
+
+#more.active {
+  display: flex;
+}
+
 .arthead {
   display: flex;
   align-items: center;

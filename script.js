@@ -60,33 +60,33 @@ const artArr = [
 ];
 
 // see more/less starts
-more = document.querySelector('#more');
-less = document.querySelector('#less');
-see1 = document.querySelector('.see1');
+const more = document.getElementById('#more');
+const less = document.getElementById('#less');
+const see1 = document.querySelector('.see1');
 
 more.addEventListener('click', () => {
-  see1.classList.toggle('active')
+  see1.classList.toggle('active');
 
-  less.classList.add('active')
+  less.classList.add('active');
   more.style.display="none"
-})
+});
 
 less.addEventListener('click', () => {
-  see1.classList.toggle('active')
+  see1.classList.toggle('active');
   more.style.display="flex"
-  less.classList.remove('active')
-})
+  less.classList.remove('active');
+});
 
 artArr.forEach((ele) => {
-  artistsInfo.innerHTML += ` <ul class="guestart-wrapper"> 
+  artistsInfo.innerHTML += ` <div class="guestart-wrapper"> 
   <div class="over">
   <div class="ove-1"></div>
-  <li class="art-imgs">
+  <div class="art-imgs">
       <img class="artPic" src="${ele.artPic}" alt="">
-  </li>
+  </div>
 
   <div class="over-2">
-      <li class="guest-artist">
+      <div class="guest-artist">
               <h4 class="guestlists">
                   ${ele.artNames}
               </h4>
@@ -95,10 +95,10 @@ artArr.forEach((ele) => {
               <p class="placeofwork"> ${ele.placeofwork}</p>
               <p class="works">${ele.works}</p>
           </div>
-      </li>
+      </div>
   </div>
 </div>
-</ul>
+</div>
   `;
 })
   .join('');

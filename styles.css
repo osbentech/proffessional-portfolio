@@ -612,6 +612,16 @@ p {
     grid-template-rows: 1fr 1fr;
   }
 
+  .see1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .guestart-wrapper {
+    display: flex;
+  }
+
   .guest-artist {
     display: flex;
     flex-direction: column;

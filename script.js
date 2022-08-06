@@ -60,22 +60,22 @@ const artArr = [
 ];
 
 // see more/less starts
-const more = document.getElementById('#more');
-const less = document.getElementById('#less');
+const more = document.querySelector('#more');
+const less = document.querySelector('#less');
 const see1 = document.querySelector('.see1');
 
 more.addEventListener('click', () => {
-  see1.classList.toggle('active');
+  see1.classList.toggle('active')
 
-  less.classList.add('active');
-  more.style.display="none"
-});
+  less.classList.add('active')
+  more.style.display = "none";
+})
 
 less.addEventListener('click', () => {
-  see1.classList.toggle('active');
-  more.style.display="flex"
-  less.classList.remove('active');
-});
+  see1.classList.toggle('active')
+  more.style.display = "flex";
+  less.classList.remove('active')
+})
 
 artArr.forEach((ele) => {
   artistsInfo.innerHTML += ` <div class="guestart-wrapper"> 

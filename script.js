@@ -75,7 +75,7 @@ less.addEventListener('click', () => {
   see1.classList.toggle('active');
   more.style.display = "flex";
   less.classList.remove('active');
-})
+});
 
 artArr.forEach((ele) => {
   artistsInfo.innerHTML += ` <div class="guestart-wrapper"> 

@@ -65,16 +65,16 @@ const less = document.querySelector('#less');
 const see1 = document.querySelector('.see1');
 
 more.addEventListener('click', () => {
-  see1.classList.toggle('active')
+  see1.classList.toggle('active');
 
-  less.classList.add('active')
+  less.classList.add('active');
   more.style.display = "none";
-})
+});
 
 less.addEventListener('click', () => {
-  see1.classList.toggle('active')
+  see1.classList.toggle('active');
   more.style.display = "flex";
-  less.classList.remove('active')
+  less.classList.remove('active');
 })
 
 artArr.forEach((ele) => {

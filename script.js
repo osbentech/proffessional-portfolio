@@ -69,6 +69,7 @@ more.addEventListener('click', () => {
 
   less.classList.add('active');
   more.style.display = "none";
+  more.replace(/['"]+/g, '');
 });
 
 less.addEventListener('click', () => {

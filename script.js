@@ -18,21 +18,21 @@ lists.addEventListener('click', () => {
 });
 
 // artist starts here js
-const artistsInfo = document.querySelector('.see1');
+const artistsInfo = document.querySelector('.guestart-wrapper');
 
 const artArr = [
-  // {
-  //   artNames: 'Davido',
-  //   artPic: 'photo/art/davi.png',
-  //   placeofwork: 'CEO 30BG records Nigeria and worldwide',
-  //   works: 'Have release more than 5 albums including IF, Aye and many more',
-  // },
-  // {
-  //   artNames: 'Burna Boy',
-  //   artPic: 'photo/art/burna.png',
-  //   placeofwork: 'CEO 30BG records Nigeria and worldwide',
-  //   works: 'old more than 12million copies in 1 single season and lots more',
-  // },
+  {
+    artNames: 'Davido',
+    artPic: 'photo/art/davi.png',
+    placeofwork: 'CEO 30BG records Nigeria and worldwide',
+    works: 'Have release more than 5 albums including IF, Aye and many more',
+  },
+  {
+    artNames: 'Burna Boy',
+    artPic: 'photo/art/burna.png',
+    placeofwork: 'CEO 30BG records Nigeria and worldwide',
+    works: 'old more than 12million copies in 1 single season and lots more',
+  },
   {
     artNames: 'Wizkid',
     artPic: 'photo/art/wiz.png',
@@ -60,23 +60,22 @@ const artArr = [
 ];
 
 // see more/less starts
-const more = document.querySelector('#more');
-const less = document.querySelector('#less');
-const see1 = document.querySelector('.see1');
+// const more = document.querySelector('#more');
+// const less = document.querySelector('#less');
+// const see1 = document.querySelector('.see1');
 
-more.addEventListener('click', () => {
-  see1.classList.toggle('active');
+// more.addEventListener('click', () => {
+//   see1.classList.toggle('active');
 
-  less.classList.add('active');
-  more.style.display = "none";
-  more.replace(/['"]+/g, '');
-});
+//   less.classList.add('active');
+//   more.style.display = "none";
+// });
 
-less.addEventListener('click', () => {
-  see1.classList.toggle('active');
-  more.style.display = "flex";
-  less.classList.remove('active');
-});
+// less.addEventListener('click', () => {
+//   see1.classList.toggle('active');
+//   more.style.display = "flex";
+//   less.classList.remove('active');
+// });
 
 artArr.forEach((ele) => {
   artistsInfo.innerHTML += ` <div class="guestart-wrapper"> 

@@ -335,6 +335,7 @@ p {
 
 .guestart-wrapper {
   display: flex;
+  flex-direction: column;
   color: black;
   text-align: justify;
 }
@@ -619,12 +620,16 @@ p {
   }
 
   .guestart-wrapper {
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    margin-left: 70px
   }
 
   .guest-artist {
     display: flex;
     flex-direction: column;
+    width: 200px;
   }
 
   .over {

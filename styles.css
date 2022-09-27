@@ -623,7 +623,7 @@ p {
     display: grid;
     grid-template-columns: 1fr 1fr;
     column-gap: 10px;
-    margin-left: 70px
+    margin-left: 70px;
   }
 
   .guest-artist {
